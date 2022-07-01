@@ -101,6 +101,11 @@ body {
 
 }
 
+@media screen and (max-width:600px) {
+    .dashboard-patient .log-orgine figure .logo-right{
+        display: none;
+    }
+}
 .dashboard-patient {
     display: flex;
     justify-content: space-between;
