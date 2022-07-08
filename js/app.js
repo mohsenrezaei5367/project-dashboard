@@ -16,6 +16,15 @@ function registerPateint() {
     signUp.addClass('none')
     signIn.removeClass('none')
 }
+
+// forget password
+function forgetPassword(){
+    window.open('forgot-password.html', "_self")
+}
+
+function backToLoginPage(){
+    window.open('login.html', "_self")
+}
 // end login
 
 
